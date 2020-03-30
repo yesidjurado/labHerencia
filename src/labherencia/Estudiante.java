@@ -15,7 +15,6 @@ public class Estudiante extends Persona{
     //Usamos el operador super para establecer el constructor
     //de la superclase
     super(nombre, apellido, edad, peso);
-
     //Definimos los atributos propios de este objeto que hereda
         this.carnet = carnet;
         this.promedioNotas = promedioNotas;
@@ -100,7 +99,6 @@ public class Estudiante extends Persona{
     //Método para imprimir los datos y el promedio del estudiante
     public void imprimirReporteNotasEstudiante() {
         imprimirDatosPersona();
-        
         JOptionPane.showMessageDialog(null,"El código del carnet del estudiante es: "+ carnet+"\nEl número de  materias del estudiante es: "+numeroMaterias+"\nEl promedio de las notas del estudiante es: "+ promedioNotas);
     }
     
