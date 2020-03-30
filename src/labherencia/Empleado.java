@@ -107,7 +107,7 @@ public class Empleado extends Persona{
         //Usamos nuevamente la herencia para llamar los métodos
         //que imprimen los datos del empleado
         imprimirDatosPersona();
-        //Ahora imprimimos los datos propios del estudiante
+        //Ahora imprimimos los datos propios del empleado
         JOptionPane.showMessageDialog(null,"El código laboral del empleado es: " + codigoLaboral);
         //Asignación del salario
         imprimirAsignacionSalario(nombre,salario);
