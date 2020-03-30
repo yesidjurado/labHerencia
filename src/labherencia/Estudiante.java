@@ -97,13 +97,14 @@ public class Estudiante extends Persona{
         return (nuevoEstudiante);
         
     }
-    
+    //Método para imprimir los datos y el promedio del estudiante
     public void imprimirReporteNotasEstudiante() {
         imprimirDatosPersona();
         
         JOptionPane.showMessageDialog(null,"El código del carnet del estudiante es: "+ carnet+"\nEl número de  materias del estudiante es: "+numeroMaterias+"\nEl promedio de las notas del estudiante es: "+ promedioNotas);
     }
     
+    //Método sobreescrito para definir el estado del estudiante
      @Override
     public void definirEstadoPersona (int edad){
         String estado = "";
